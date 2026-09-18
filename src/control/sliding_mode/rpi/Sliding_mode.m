@@ -1,0 +1,13 @@
+%%
+clear;
+clc;
+g=9.81;
+Ts=0.02;
+K1=6.1486;
+K2=6.664;
+lambdax=2;
+lambday=2;
+etax=1.5;
+etay=1.5;
+Kx=1.1*etax/K1;
+Ky=1.1*etay/K2;

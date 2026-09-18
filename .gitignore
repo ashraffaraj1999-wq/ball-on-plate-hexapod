@@ -1,0 +1,39 @@
+# Simulink / Embedded Coder build output
+*_ert_rtw/
+*_grt_rtw/
+*_rtw/
+slprj/
+_sfprj/
+sccprj/
+codegen/
+*.elf
+*.obj
+*.o
+*.mk
+
+# Simulink caches and editor files
+*.slxc
+*.autosave
+*.slx.original
+*.slx.bak
+*.slx.r20*
+*.mdl.bak
+*.asv
+*.m~
+
+# MATLAB session state
+*.mex*
+*.mlx.bak
+slAccelPersistentData/
+*.mlappinstall
+
+# Archives
+*.rar
+*.zip
+*.7z
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/

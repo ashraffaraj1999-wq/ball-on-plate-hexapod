@@ -1,0 +1,6 @@
+writePWMDutyCycle(r,Motor1,0)
+writePWMDutyCycle(r,Motor2,0)
+writePWMDutyCycle(r,Motor3,0)
+writePWMDutyCycle(r,Motor4,0)
+writePWMDutyCycle(r,Motor5,0)
+writePWMDutyCycle(r,Motor6,0)

@@ -1,0 +1,15 @@
+%%
+up=5*pi/180;
+down=-up;
+g=9.81;
+Ts=0.02;
+Kx=6.1486;
+Ky=6.664;
+lambdax=1.2;
+lambday=1.3;
+Lx=6;
+Wx=0.5*sqrt(Lx);
+gammax=4*Lx;
+Ly=6;
+Wy=0.5*sqrt(Ly);
+gammay=4*Ly;

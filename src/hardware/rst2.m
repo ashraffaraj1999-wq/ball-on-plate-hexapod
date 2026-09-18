@@ -1,0 +1,12 @@
+neutral1=1.14;
+neutral2=1.67;
+neutral3=1.29;
+neutral4=1.62;
+neutral5=1.14;
+neutral6=1.645;
+writePWMDutyCycle(r,Motor1,(neutral1*freq)/1000)
+writePWMDutyCycle(r,Motor2,(neutral2*freq)/1000)
+writePWMDutyCycle(r,Motor3,(neutral3*freq)/1000)
+writePWMDutyCycle(r,Motor4,(neutral4*freq)/1000)
+writePWMDutyCycle(r,Motor5,(neutral5*freq)/1000)
+writePWMDutyCycle(r,Motor6,(neutral6*freq)/1000)

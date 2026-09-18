@@ -1,0 +1,17 @@
+# Simulink models and MATLAB data are binary. Marking them explicitly stops Git from
+# attempting line-ending normalization or textual merges, both of which corrupt them.
+*.slx    binary
+*.mdl    binary
+*.mat    binary
+*.slxc   binary
+*.mlx    binary
+*.fig    binary
+*.mldatx binary
+
+# .fis (fuzzy inference system) files are plain text and diff cleanly.
+*.fis    text
+
+# Normalize line endings for everything else.
+*.m      text
+*.md     text
+*.txt    text
